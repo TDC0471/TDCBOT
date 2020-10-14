@@ -15,4 +15,4 @@ client.on('message', message => {
         message.reply("IN MY SWAMP NOW GET OUT!");}
 })
 
-client.login(logint);
+client.login(process.env.token);
