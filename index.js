@@ -1,6 +1,7 @@
+const {token, PREFIX} = require('config.json')
 const Discord = require('discord.js');
 const client = new Discord.Client();
-//const token = 'NzU5ODYzNTI5MjI1NzE1NzQz.X3DsDg.xtHU94wJQvWTNr8CEkBETQHMHUk'; 
+
 const logint = process.env.token;
 console.log(logint) 
 
@@ -15,4 +16,4 @@ client.on('message', message => {
         message.reply("IN MY SWAMP NOW GET OUT!");}
 })
 
-client.login(process.env.token);
+client.login(token);
