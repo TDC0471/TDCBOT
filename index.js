@@ -12,10 +12,4 @@ client.on('ready', () => {
 
 
 
-client.on('message', message => {
-
-	if(message.content.toLowerCase().match('~where am i?')){
-        message.reply("IN MY SWAMP NOW GET OUT!");}
-})
-
 client.login('NzU5ODYzNTI5MjI1NzE1NzQz.X3DsDg.MWTJpicwoUDu7c05FeOJgTi_thc');
