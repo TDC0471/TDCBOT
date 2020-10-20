@@ -18,4 +18,4 @@ client.on('message', message => {
         message.reply("IN MY SWAMP NOW GET OUT!");}
 })
 
-client.login(token);
+client.login('NzU5ODYzNTI5MjI1NzE1NzQz.X3DsDg.MWTJpicwoUDu7c05FeOJgTi_thc');
