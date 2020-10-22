@@ -1,7 +1,7 @@
 module.exports = {
     name: '8ball',
     descrption: 'Gives an answer to any qustion.',
-    aliases: ['qustion','8q'],
+    aliases: ['qustion','8q','8b','ball'],
     cooldown: 5,
     guildOnly: false,
     requirearg: '1',
