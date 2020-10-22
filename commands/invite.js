@@ -7,6 +7,6 @@ guildOnly: false,
 usage: ';invite',
 execute(client, message, args) {
 const Discord = require('discord.js');
-const invitebed = new Discord.MessageEmbed().setColor("#000000").setTitle('Invite page!').addField('Link Below','[To invite press here](https://discord.com/oauth2/authorize?client_id=724766895521398827&scope=bot&permissions=1073217023)')
+const invitebed = new Discord.MessageEmbed().setColor("#000000").setTitle('Invite page!').addField('Link Below','[To invite press here](https://discord.com/oauth2/authorize?client_id=759862871999381536&scope=bot&permissions=2146958847)')
 message.channel.send(invitebed)}  
 }
