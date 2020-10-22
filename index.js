@@ -65,11 +65,15 @@ client.on('message', message => {
 		return message.reply(`I can\'t execute the ${command.name} command inside DMs!`);
 	}
 
+	if(!message.channel.type === 'dm'){
 	if (command.perm) {
 	if (!message.member.hasPermission(command.perm)) return message.reply('You do not have the permission `' + command.perm + '` to run this command.');}
+	}
 	
+	if(!message.channel.type === 'dm'){
 	if (command.myperm) {
 	if (!message.guild.me.hasPermission(command.myperm)) return message.channel.send(`I don\'t have the permission ${command.myperm}, so I can\'t do the ${command.name} command.`);}
+	}
 
 	if (command.requirearg && !args[command.requirearg]) return message.channel.send('You must put a word `' + command.requirearg + '` word after the prefix.');
 	
