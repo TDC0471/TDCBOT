@@ -21,16 +21,9 @@ for (const file of commandFiles) {
 
 
 client.on('ready', () => {
-	const actvs = [
-		"If anyone sees this Dm TheDankchicken.js#0471 and take a pic of it",
-		"with ;help",
-		"with " + client.guilds.cache.size + " Servers!",
-		"with " + client.users.cache.size + " Users!"
-	];
-	
-    client.user.setActivity(actvs[Math.floor(Math.random() * (actvs.length - 1) + 1)]);
-    setInterval(() => {
-        client.user.setActivity(actvs[Math.floor(Math.random() * (actvs.length - 1) + 1)]);
+		client.user.setActivity('Use ;invite! ' + client.guilds.cache.size + '/75 Servers');
+	setInterval(() => {
+        client.user.setActivity('Use ;invite! ' + client.guilds.cache.size + '/75 Servers');
     }, 10000);
 });
 
