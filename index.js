@@ -21,9 +21,9 @@ for (const file of commandFiles) {
 
 
 client.on('ready', () => {
-		client.user.setActivity('Use ;invite! ' + client.guilds.cache.size + '/75 Servers');
+		client.user.setActivity(';invite! ' + client.guilds.cache.size + '/75 Servers');
 	setInterval(() => {
-        client.user.setActivity('Use ;invite! ' + client.guilds.cache.size + '/75 Servers');
+        client.user.setActivity(';invite! ' + client.guilds.cache.size + '/75 Servers');
     }, 10000);
 });
 
