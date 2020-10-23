@@ -59,7 +59,7 @@ module.exports = {
 
       msgtosend = msg.first().content;
       
-      dmsend.send('From **' +message.author.username+'** \n'+msgtosend);
+      dmsend.send('From **' +message.author.username+'** in **' +message.guild.name +'** \n'+msgtosend);
       message.channel.send('Sent!');    
          
         msg2rep = 2;
