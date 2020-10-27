@@ -116,10 +116,10 @@ client.on('message', message => {
     catch (error) {
         console.error(error);
 		if (command.errmsg){
-		return message.channel.send('There was an error trying to execute '+ command.name +'!' + commands.errmsg);
+		return message.channel.send('There was an error trying to execute '+ command.name +'!' + commands.errmsg) && console.log(error);
 		}
 		else{
-		message.channel.send('There was an error trying to execute '+ command.name +'!');
+		message.channel.send('There was an error trying to execute '+ command.name +'!') && console.log(error);
 		}
     }
 
