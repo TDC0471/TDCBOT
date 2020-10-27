@@ -2,7 +2,7 @@ module.exports = {
     name: 'stats',
     descrption: 'Gives you the stats of this bot.',
     aliases: [],
-    cooldown: 10,
+    cooldown: 3,
     guildOnly: false,
     usage: ';stats',
     
