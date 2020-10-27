@@ -15,11 +15,9 @@ if (!args[1]) {
 data.push(commands.map(command => command.name).join(', '));
 data.push(`\nYou can send \`${prefix}help [command name]\` to get info on a specific command!`);
 
-return message.author.send(data, { split: true })
+return message.channel.send(data, { split: true })
 	
-	.catch(() => {
-		message.reply('it seems like I can\'t DM you! Do you have DMs disabled?');
-	});
+	
 }
 
 const name = args[1].toLowerCase();
