@@ -16,7 +16,7 @@ module.exports = {
         .setTitle("Stats for Incogware")
         .addField('`Developer`' , '`TheDankchicken.js#0471`')
         .addField('`Servers`' , '`'+ client.guilds.cache.size +"`" , true)
-        .addField('`Users`' , '`'+ null +"`" , true)
+        .addField('`Users`' , '`'+ guild.memberCount.size +"`" , true)
         .addField('`Ping`' , '`' + client.ws.ping + 'ms`' , true)
         .addField('`Uptime since last update`' , '`' + uptime + '`' , false);
         message.channel.send(Statembed);    
