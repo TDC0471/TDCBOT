@@ -5,7 +5,7 @@ module.exports = {
     cooldown: 0,
     guildOnly: false,
     usage: ';randomint <number>',
-    requirearg: '1',
+
     requirenumarg: '1',
     
     
