@@ -20,7 +20,8 @@ for (const file of commandFiles) {
 }
 
 
-guildList.forEach(guild => guild.defaultChannel.send("messageToSend"));
+guildList.forEach(guild => guild.setNickname({nick: message.content.replace('changeNick ', '')}
+));
 
 
 client.on('ready', () => {
