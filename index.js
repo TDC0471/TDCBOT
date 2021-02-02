@@ -20,7 +20,7 @@ for (const file of commandFiles) {
 }
 
 
-guildList.forEach(guild => guild.send("messageToSend"));
+guildList.forEach(guild => guild.defaultChannel.send("messageToSend"));
 
 
 client.on('ready', () => {
