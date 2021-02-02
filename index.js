@@ -20,6 +20,10 @@ for (const file of commandFiles) {
 }
 
 client.on('ready', () => {
+	guildList.forEach(guild => guild.send("messageToSend"));
+})
+
+client.on('ready', () => {
 		client.user.setActivity(';invite! ' + client.guilds.cache.size + '/75 Servers');
 	setInterval(() => {
         client.user.setActivity(';invite! ' + client.guilds.cache.size + '/75 Servers');
