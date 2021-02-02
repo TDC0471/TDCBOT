@@ -20,10 +20,6 @@ for (const file of commandFiles) {
 }
 
 
-guildList.forEach(guild => guild.setNickname({nick: message.content.replace('changeNick ', '')}
-));
-
-
 client.on('ready', () => {
 		client.user.setActivity(';invite! ' + client.guilds.cache.size + '/75 Servers');
 	setInterval(() => {
