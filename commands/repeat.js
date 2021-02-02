@@ -1,3 +1,4 @@
+//fix so that bot reapeats with capitals (make a allcapargs)
 module.exports = {
     name: 'repeat',
     descrption: 'Make\'s it look like the bot said what you told it too.',
