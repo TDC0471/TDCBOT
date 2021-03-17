@@ -33,7 +33,8 @@
                     <li><a href="#">Other Stuff</a></li>
                     <li><a href="#">Bean</a></li>
                     <li><a href="about.html">About</a></li>
-                    <button onclick="myFunction()">Toggle dark mode</button>
+                    <button onclick="togglemode()">Toggle dark mode</button>
+                     <button onclick="Alert()">Alert Test</button>
 
                     
                     
@@ -77,10 +78,14 @@
     
     </body>
     <script>
-    function myFunction() {
+    function togglemode() {
    var element = document.body;
    element.classList.toggle("dark-mode");
     }
+   
+    function Alert() {
+  alert("Hello! I am an alert box!");
+   }    
     </script>
 
 
