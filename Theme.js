@@ -1,7 +1,7 @@
 var colorCodes = {
 
   back  : "#fff",
-  dark : new Boolean(true),
+  dark : new Boolean(false),
   side  : "#369"
 
 };
