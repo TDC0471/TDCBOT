@@ -6,6 +6,127 @@ body {
   font-size: 16px;
   line-height: 1.6em;
   margin:0;
+}}
+
+.container{
+    width:80%;
+    margin:auto;
+    overflow:hidden;
+
+
+}
+
+#headerOne{
+
+    text-decoration: none;
+    background-color: coral;
+    color:#fff;
+    
+
+}
+
+
+
+#headerOne a{
+
+    text-decoration: none;
+    color:#fff;
+
+
+}
+
+
+
+#headerOne a:hover{
+
+    text-decoration: none;
+    color:#fff;
+    
+
+}
+
+#navbar{
+
+    background-color: rgb(133, 133, 133);
+    color:#fff;
+}
+
+#navbar ul{
+    padding:0;
+    list-style:none;
+
+}
+
+#navbar li{
+
+    display:inline;
+
+}
+
+#navbar a{
+    color:#fff;
+    text-decoration: none;
+    font-size:18px;
+    padding-right:15px;
+    
+}
+
+#navbar a:hover{
+
+color:rgb(201, 199, 199);
+
+}
+
+#thingy{
+    background-image:url('../PICS/trollge.jpg');
+    background-position:center right;
+    min-height:300px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+#thingy h1{
+    color:#fff;
+    font-size: 50px;
+    line-height: 1.6em;
+    padding-top: 30px;
+
+}
+
+#footerOne{
+    background-color: rgb(56, 56, 56);
+    color:#fff;
+    padding-bottom:2px;
+    text-align: center;
+}
+
+.boxOne{
+    float:left;
+    width:33.3;
+    padding-right:30px;
+    padding-left:30px;
+
+
+}
+
+.selectBox{
+    border:1px black solid;
+    padding-top:30px;
+    padding-bottom:30px;
+    padding-left:60px;
+    padding-right:60px;
+    text-decoration: none;
+}
+
+.selectBox:hover{
+    color:#fff;
+    background-color: black;
+    padding-top:40px;
+    padding-bottom:40px;
+    padding-left:65px;
+    padding-right:65px;
+
+
 }
 
 .dark-mode {
