@@ -1,1 +1,1 @@
-var DarkMode = false;
+var DarkMode = true;
