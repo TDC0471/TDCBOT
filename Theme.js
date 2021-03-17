@@ -1,3 +1,4 @@
+<script>
 var colorCodes = {
 
   back  : "#fff",
@@ -5,3 +6,4 @@ var colorCodes = {
   side  : "#369"
 
 };
+</script>
