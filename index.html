@@ -18,7 +18,7 @@
 
     </head>
 
-    <body onload="LoadColor()">
+    <body onload="LoadColor(false)">
         
         <header id="headerOne">
             
@@ -86,14 +86,17 @@
     
       function LoadColor() {
         if(colorCodes.dark == true)
-            togglemode();
+            togglemode(true);
     
       }        
         
-        function togglemode() {
+        function togglemode(boolean isLoad) {
    var element = document.body;
    element.classList.toggle("dark-mode");
-   colorCodes.dark = !colorCodes.dark;
+  
+   if(isLoad == true)
+      colorCodes.dark = !colorCodes.dark;
+            
    alert(colorCodes.dark);
     }
         
