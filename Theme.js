@@ -5,3 +5,5 @@ var colorCodes = {
   side  : "#369"
 
 };
+
+var Dark = true;
