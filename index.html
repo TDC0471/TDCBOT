@@ -39,7 +39,7 @@
                     <li><a href="#">Bean</a></li>
                     <li><a href="about.html">About</a></li>
                     <button onclick="togglemode()">Toggle dark mode</button>
-                     <button onclick="Alert()">Reeee!</button>
+                     <button onclick="Alert()">EEE!</button>
 
                     
                     
@@ -85,11 +85,19 @@
    
     <script type="text/javascript">     
     
-          function Alert() {
+      function Alert() {
         
-        togglemode();              
+        togglemode(); 
+        Alert1();
     
       }
+        
+      function Alert1() {
+        
+        if(colorCodes.dark == "false")
+            Alert("E!");
+    
+      }        
         
         function togglemode() {
    var element = document.body;
