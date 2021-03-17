@@ -86,7 +86,7 @@
     
       function Alert() {
         
-        if(colorCodes.dark == "false")
+        if(colorCodes.dark == false)
             togglemode();
     
       }        
@@ -94,6 +94,7 @@
         function togglemode() {
    var element = document.body;
    element.classList.toggle("dark-mode");
+            Alert();
     }
         
         
