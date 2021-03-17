@@ -85,13 +85,17 @@
     <script type="text/javascript">     
     
       function LoadColor() {
-        var element = document.body;
+          
           if(colorCodes.dark == true)
-                element.classList.toggle("dark-mode");
-        
-          alert(colorCodes.dark);
-        
+              LoadEnd();
       }        
+        
+        function LoadEnd() {
+   var element = document.body;
+   element.classList.toggle("dark-mode");
+            
+   alert(colorCodes.dark);
+     }        
         
         function togglemode() {
    var element = document.body;
