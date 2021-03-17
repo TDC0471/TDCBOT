@@ -6,4 +6,4 @@ var colorCodes = {
 
 };
 
-var Dark = true;
+var Dark = { tf : true};
