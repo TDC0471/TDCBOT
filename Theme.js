@@ -1,1 +1,7 @@
-var DarkMode = true;
+var colorCodes = {
+
+  back  : "#fff",
+  front : "#888",
+  side  : "#369"
+
+};
