@@ -5,5 +5,3 @@ var colorCodes = {
   side  : "#369"
 
 };
-
-var Dark = { tf : true};
