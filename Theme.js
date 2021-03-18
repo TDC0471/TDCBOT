@@ -1,6 +1,6 @@
 var colorCodes = {
 
   back  : "#fff",
-  dark : new Boolean(false)
+  white : new Boolean(true)
 
 };
