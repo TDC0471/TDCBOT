@@ -85,17 +85,14 @@
     <script type="text/javascript">     
     
       function LoadColor() {
-          
-          alert("E");
           if(colorCodes.white == false)
+              alert("yes!");
               LoadEnd();
       }        
         
         function LoadEnd() {
    var element = document.body;
    element.classList.toggle("dark-mode");
-            
-   alert("Load " + colorCodes.white);
      }        
         
         function togglemode() {
