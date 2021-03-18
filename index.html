@@ -101,7 +101,12 @@
    var element = document.body;
    element.classList.toggle("dark-mode");
   
-      //colorCodes.white = !colorCodes.white;
+      if(colorCodes.white == true)
+          colorCodes.white = new Boolean(false);
+            
+      if(colorCodes.white == false)
+          colorCodes.white = new Boolean(true);
+           
             
    alert("Bution" + colorCodes.white);
      }
