@@ -18,7 +18,7 @@
 
     </head>
 
-    <body onload="LoadColor()">
+    <body>
         
         <header id="headerOne">
             
@@ -38,7 +38,7 @@
                     <li><a href="#">Other Stuff</a></li>
                     <li><a href="#">Bean</a></li>
                     <li><a href="about.html">About</a></li>
-                    <button onclick="togglemode()">Toggle dark mode</button>
+                    
 
                     
                     
@@ -84,25 +84,6 @@
    
     <script type="text/javascript">     
     
-      function LoadColor() {
-          if(colorCodes.white == false)
-              LoadEnd();
-      }        
-        
-        function LoadEnd() {
-   var element = document.body;
-   element.classList.toggle("dark-mode");
-    alert("Load " + colorCodes.white);
-     }        
-        
-        function togglemode() {
-   var element = document.body;
-   element.classList.toggle("dark-mode");
-
-    colorCodes.white = false;     
-            
-   alert("Bution" + colorCodes.white);
-     }
         
         
     </script>
