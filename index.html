@@ -92,19 +92,14 @@
         function LoadEnd() {
    var element = document.body;
    element.classList.toggle("dark-mode");
+    alert("Load " + colorCodes.white);
      }        
         
         function togglemode() {
    var element = document.body;
    element.classList.toggle("dark-mode");
 
-/*            
-      if(colorCodes.white == true)
-          colorCodes.white = !colorCodes.white;
-            
-      if(colorCodes.white == false)
-          colorCodes.white = colorCodes.white;
-*/         
+    colorCodes.white = false;     
             
    alert("Bution" + colorCodes.white);
      }
